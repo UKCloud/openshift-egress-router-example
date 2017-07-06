@@ -12,6 +12,6 @@ Tests
 
 Tested access from container via egress router with FW rule to only allow egress router IP - PASS
 
-Tested replicated egress router retains and can failover - 
+Tested replicated egress router retains and can failover - FAIL cannot deploy
 
-Tested detroying contring and rebuilding to see if MAC was retained -
+Tested detroying contring and rebuilding to see if MAC was retained - FAIL cannot deploy
