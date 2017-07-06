@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: egress-legacy-mariadb
+spec:
+  ports:
+  - name: mysql
+    port: 3306
+  type: ClusterIP
+  selector:
+    name: legacy-mariadb-example
